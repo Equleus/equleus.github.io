@@ -1,20 +1,20 @@
-import type { userConfig } from '~/types'
+import type { ThemeConfig } from '~/types'
 
 // This is the default configuration for the template, please do not modify it directly.
 // You can override this configuration in the `.config/user.ts` file.
 
-export const userConfig: Partial<UserConfig> = {
+export const defaultConfig: ThemeConfig = {
   site: {
-    title: '',
-    subtitle: '',
-    author: 'Equleus',
-    description: '',
-    website: 'https://equleus.github.io',
+    title: '活版印字',
+    subtitle: 'Typography',
+    author: 'Moeyua',
+    description: 'Rediscory the beauty of typography',
+    website: 'https://astro-theme-typography.vercel.app/',
     pageSize: 5,
     socialLinks: [
       {
         name: 'github',
-        href: 'https://github.com/Equleus',
+        href: 'https://github.com/moeyua/astro-theme-typography',
       },
       {
         name: 'rss',
@@ -22,7 +22,7 @@ export const userConfig: Partial<UserConfig> = {
       },
       {
         name: 'twitter',
-        href: 'https://x.com/proxima10wd3',
+        href: 'https://github.com/moeyua/astro-theme-typography',
       },
       {
         name: 'mastodon',
@@ -55,8 +55,8 @@ export const userConfig: Partial<UserConfig> = {
     ],
   },
   appearance: {
-    theme: 'dark',
-    locale: 'en-us',
+    theme: 'system',
+    locale: 'zh-cn',
     colorsLight: {
       primary: '#FFFFFF',
       background: '#232222',
