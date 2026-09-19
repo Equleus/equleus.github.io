@@ -22,12 +22,8 @@ export const userConfig: Partial<UserConfig> = {
       },
       {
         name: 'twitter',
-        href: 'https://x.com/proxima10wd3',
-      },
-      {
-        name: 'mastodon',
-        href: 'https://github.com/moeyua/astro-theme-typography',
-      },
+        href: 'https://x.com/equleus3',
+      }
     ],
     navLinks: [
       {
