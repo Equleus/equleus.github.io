@@ -28,7 +28,7 @@ export default defineConfig({
       rehypeKatex,
     ],
     shikiConfig: {
-      theme: 'github-dark',
+      theme: 'github-dark-dimmed',
       wrap: true,
     },
   },

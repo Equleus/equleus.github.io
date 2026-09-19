@@ -1,4 +1,4 @@
-import type { userConfig } from '~/types'
+import type { UserConfig } from '~/types'
 
 // This is the default configuration for the template, please do not modify it directly.
 // You can override this configuration in the `.config/user.ts` file.
@@ -17,13 +17,9 @@ export const userConfig: Partial<UserConfig> = {
         href: 'https://github.com/Equleus',
       },
       {
-        name: 'rss',
-        href: '/atom.xml',
-      },
-      {
         name: 'twitter',
         href: 'https://x.com/equleus3',
-      }
+      },
     ],
     navLinks: [
       {

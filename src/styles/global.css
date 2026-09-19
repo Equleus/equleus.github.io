@@ -10,7 +10,8 @@ html {
 
   text-shadow: 1px 1px 1px var(--uno-colors-shadow);
   background-size: 7px 7px;
-  background-image: linear-gradient(to right, var(--uno-colors-shadow) 1px, transparent 1px),
+  background-image:
+    linear-gradient(to right, var(--uno-colors-shadow) 1px, transparent 1px),
     linear-gradient(to bottom, var(--uno-colors-shadow) 1px, transparent 1px);
 }
 
@@ -19,4 +20,10 @@ html {
   --at-apply: 'decoration-underline decoration-0.1em decoration-offset-2px';
   --at-apply: 'ease-in-out duration-300ms';
   --at-apply: 'hover:(c-background bg-primary decoration-primary)';
+}
+
+/* Shiki sets its own canvas colour inline. Keep code blocks visually continuous
+   with the page instead of rendering them as a separate dark panel. */
+:where(pre.astro-code) {
+  background-color: var(--uno-colors-background) !important;
 }

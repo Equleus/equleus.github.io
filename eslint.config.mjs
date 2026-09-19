@@ -14,6 +14,8 @@ export default antfu(
       'public/**',
       '**/*.md',
     ],
+  },
+  {
     rules: {
       'style/no-tabs': 'off',
 
